@@ -4,3 +4,4 @@ spring:
     username: admin
     password: admin
     virtual-host: /admin
+  filters: smsBlockFilter,smsFeeFilter,smsKeywordFilter
